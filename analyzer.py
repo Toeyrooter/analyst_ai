@@ -3,7 +3,7 @@ from typing import Dict, Tuple
 import pandas as pd
 
 # Optional: OpenAI (only used if OPENAI_API_KEY is set)
-USE_OPENAI = bool(os.environ.get("OPENAI_API_KEY"))
+USE_OPENAI = bool(os.environ.get("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"))
 if USE_OPENAI:
     try:
         from openai import OpenAI
